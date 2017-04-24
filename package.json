@@ -1,0 +1,26 @@
+{
+  "name": "nwjc-build",
+  "version": "0.0.4",
+  "description": "build for nwjc",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xsm/nwjc-build.git"
+  },
+  "keywords": [
+    "nwjc",
+    "nw",
+    "node-webkit"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "author": {
+    "name": "Robin Xi",
+    "email": "imrobin.xi@gmail.com"
+  },
+  "scripts": {
+  },
+  "license": "Apache License 2"
+}
