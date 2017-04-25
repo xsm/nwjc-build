@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/xsm/nwjc-build.git"
+    "url": "git+ssh://git@github.com/xsm/nwjc-build.git"
   },
   "keywords": [
     "nwjc",
@@ -13,14 +13,14 @@
     "node-webkit"
   ],
   "dependencies": {
+    "file-matcher": "latest"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "author": "Robin Xi <imrobin.xi@gmail.com>",
+  "scripts": {},
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xsm/nwjc-build/issues"
   },
-  "author": {
-    "name": "Robin Xi",
-    "email": "imrobin.xi@gmail.com"
-  },
-  "scripts": {
-  },
-  "license": "Apache License 2"
+  "homepage": "https://github.com/xsm/nwjc-build#readme"
 }

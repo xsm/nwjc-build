@@ -1,10 +1,15 @@
-var nwjcBuild = function() {
-    const
-        spawn = require('child_process').spawnSync,
-        ls = spawn( 'ls', [ '-lh', '/usr' ] );
+var nwjcBuild = function(options) {
+    var fm = require('file-matcher');
+    var fileMatcher = new fm.FileMatcher();
 
-    console.log( `stderr: ${ls.stderr.toString()}` );
-    console.log( `stdout: ${ls.stdout.toString()}` );
+    this.match = function(callback) {
+        fileMatcher.find(options)
+        .then(callback)
+        .catch(function(error)=> {
+            // ... 
+        });
+    };
+
 };
 
 module.exports = nwjcBuild;
