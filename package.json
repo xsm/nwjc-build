@@ -1,6 +1,6 @@
 {
   "name": "nwjc-build",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "build for nwjc",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,7 @@
     "node-webkit"
   ],
   "dependencies": {
-    "file-matcher": "latest"
+    
   },
   "devDependencies": {},
   "author": "Robin Xi <imrobin.xi@gmail.com>",
